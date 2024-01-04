@@ -1,0 +1,3 @@
+E:/Files/Study/Code/Ccode/DIDs-Authentication-Framework/cmake-build-debug/CMakeFiles/DIDs_Authentication_Framework.dir
+E:/Files/Study/Code/Ccode/DIDs-Authentication-Framework/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/Files/Study/Code/Ccode/DIDs-Authentication-Framework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
