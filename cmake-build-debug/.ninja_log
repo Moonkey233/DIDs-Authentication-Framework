@@ -1,5 +1,11 @@
 # ninja log v5
 1	423	7260854529913271	CMakeFiles/DIDs_Authentication_Framework.dir/main.cpp.obj	f270b1bf35f30c0e
 344	454	7260859244488665	DIDs_Authentication_Framework.exe	9dad378c51a0b302
-1	204	7261343641994324	build.ninja	d84926986a72ea1b
+1	204	7266805083464303	build.ninja	d84926986a72ea1b
 3	344	7260859243421692	CMakeFiles/DIDs_Authentication_Framework.dir/src/main.cpp.obj	73198fe8a3d433d3
+3	559	7266807643183358	CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj	d910000c954156ef
+8	560	7266807643183358	CMakeFiles/DIDs_Authentication_Framework.dir/src/main.cpp.obj	73198fe8a3d433d3
+560	917	7266807646753801	DIDs_Authentication_Framework.exe	df8ebce708494c61
+8	356	7266808180692688	CMakeFiles/DIDs_Authentication_Framework.dir/src/main.cpp.obj	73198fe8a3d433d3
+3	359	7266808180692688	CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj	d910000c954156ef
+359	472	7266808181852351	DIDs_Authentication_Framework.exe	df8ebce708494c61

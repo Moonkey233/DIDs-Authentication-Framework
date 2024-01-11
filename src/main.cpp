@@ -1,6 +1,5 @@
-#include <iostream>
-
+#include "../include/crypto/ecc.hpp"
 int main() {
-	std::cout << "Hello, DIDs!" << std::endl;
+	ECC::test();
 	return 0;
 }
