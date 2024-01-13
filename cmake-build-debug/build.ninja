@@ -61,6 +61,12 @@ build CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj: CXX_C
   OBJECT_DIR = CMakeFiles\DIDs_Authentication_Framework.dir
   OBJECT_FILE_DIR = CMakeFiles\DIDs_Authentication_Framework.dir\src\crypto
 
+build CMakeFiles/DIDs_Authentication_Framework.dir/src/bigint/bigInt.cpp.obj: CXX_COMPILER__DIDs_Authentication_Framework_Debug E$:/Files/Study/Code/Ccode/DIDs-Authentication-Framework/src/bigint/bigInt.cpp || cmake_object_order_depends_target_DIDs_Authentication_Framework
+  DEP_FILE = CMakeFiles\DIDs_Authentication_Framework.dir\src\bigint\bigInt.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DIDs_Authentication_Framework.dir
+  OBJECT_FILE_DIR = CMakeFiles\DIDs_Authentication_Framework.dir\src\bigint
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DIDs_Authentication_Framework
@@ -69,7 +75,7 @@ build CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj: CXX_C
 #############################################
 # Link the executable DIDs_Authentication_Framework.exe
 
-build DIDs_Authentication_Framework.exe: CXX_EXECUTABLE_LINKER__DIDs_Authentication_Framework_Debug CMakeFiles/DIDs_Authentication_Framework.dir/src/main.cpp.obj CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj
+build DIDs_Authentication_Framework.exe: CXX_EXECUTABLE_LINKER__DIDs_Authentication_Framework_Debug CMakeFiles/DIDs_Authentication_Framework.dir/src/main.cpp.obj CMakeFiles/DIDs_Authentication_Framework.dir/src/crypto/ecc.cpp.obj CMakeFiles/DIDs_Authentication_Framework.dir/src/bigint/bigInt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DIDs_Authentication_Framework.dir
