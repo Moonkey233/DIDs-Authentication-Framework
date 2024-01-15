@@ -11,17 +11,19 @@ class UTILS {
 public:
 	static bool isInteger(const std::string &str); //判断字符串为整数可带+-
 	static bool isPrime(const long long &number); //快速大素数判断 Miller Rabin Test
-	static unsigned long long sundaySearch(const std::string &text, const std::string &pattern); //单模式串匹配KMP算法
+	static unsigned long long sundaySearch(const std::string &text, const std::string &pattern); //单模式串匹配Sunday算法
 	static std::string &replace(std::string mainStr, const std::string &subStr, const std::string &replaceStr, const unsigned long long &num = -1); //快速字符串替换
 	static void swapNumber(long long &a, long long &b); //快速位运算交换两数
 	static long long abs(const long long &n); //快速位运算绝对值
 	static bool isEven(const long long &n); //快速位运算判断偶数
 	static long long gcd(long long a, long long b); //快速最大公因数
-	static long long lcm(long long a, long long b); //快速最小公倍数
+	static long long extendedGCD(const long long &a, const long long &b, long long &x, long long &y); //拓展欧几里得算法
+	static long long lcm(const long long &a, const long long &b); //快速最小公倍数
+	static long long modInverse(int a, int mod); //求乘法逆元
 
 protected:
-	static long long quickMultiply(long long a, long long b, long long mod); //快速乘
-	static long long quickPower(long long a, long long n, long long mod); //快速幂
+	static long long quickMultiply(long long a, long long b, const long long &mod); //快速乘
+	static long long quickPower(long long a, long long n, const long long &mod); //快速幂
 
 };
 
@@ -33,8 +35,9 @@ inline bool UTILS::isInteger(const std::string &str) {
 	return true;
 }
 
-inline long long UTILS::quickMultiply(long long a, long long b, long long mod) {
-	a %= mod; b %= mod;
+inline long long UTILS::quickMultiply(long long a, long long b, const long long &mod) {
+	a %= mod;
+	b %= mod;
 	long long res = 0;
 	while (b > 0) {
 		if (b & 1) res = (res + a) % mod;
@@ -44,7 +47,7 @@ inline long long UTILS::quickMultiply(long long a, long long b, long long mod) {
 	return res;
 }
 
-inline long long UTILS::quickPower(long long a, long long n, long long mod) {
+inline long long UTILS::quickPower(long long a, long long n, const long long &mod) {
 	long long res = 1;
 	while (n) {
 		if (n & 1) res = quickMultiply(res, a, mod);
@@ -83,7 +86,7 @@ inline bool UTILS::isPrime(const long long &number) {
 	return true;
 }
 
-inline unsigned long long UTILS::sundaySearch(const std::string &text, const std::string &pattern){
+inline unsigned long long UTILS::sundaySearch(const std::string &text, const std::string &pattern) {
 //	unsigned long long textLength = text.length(), patternLength = pattern.length();
 //	if (patternLength == 0) return 0;
 //	std::vector<long long> nextval(patternLength, 0);
@@ -122,17 +125,17 @@ inline std::string &UTILS::replace(std::string mainStr, const std::string &subSt
 
 }
 
-inline void UTILS::swapNumber(long long &a, long long &b){
+inline void UTILS::swapNumber(long long &a, long long &b) {
 	a ^= b;
 	b ^= a;
 	a ^= b;
 }
 
-inline long long UTILS::abs(const long long &n){
+inline long long UTILS::abs(const long long &n) {
 	return n < 0 ? ~n + 1 : n;
 }
 
-inline bool UTILS::isEven(const long long &n){
+inline bool UTILS::isEven(const long long &n) {
 	return (n & 1) == 0;
 }
 
@@ -155,10 +158,27 @@ inline long long UTILS::gcd(long long a, long long b) {
 		if (a < b) swapNumber(a, b);
 		a -= b;
 	}
-	return a << min(aTimes, bTimes);
+	return a << (aTimes < bTimes ? aTimes : bTimes);
 }
 
-inline long long UTILS::lcm(long long a, long long b) {
+inline long long UTILS::extendedGCD(const long long &a, const long long &b, long long &x, long long &y) {
+	if (b == 0) {
+		x = 1;
+		y = 0;
+		return a;
+	}
+	long long d = extendedGCD(b, a % b, y, x);
+	y -= (a / b) * x;
+	return d;
+}
+
+inline long long UTILS::modInverse(int a, int m) {
+	long long x, y;
+	long long gcd = extendedGCD(a, m, x, y);
+	return (x % m + m) % m;
+}
+
+inline long long UTILS::lcm(const long long &a, const long long &b) {
 	return a / gcd(a, b) * b;
 }
 
