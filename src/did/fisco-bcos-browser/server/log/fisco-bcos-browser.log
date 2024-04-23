@@ -1,0 +1,18 @@
+2024-04-21 16:14:24.911 [main] INFO  Application() - Starting Application on DID with PID 2525 (/root/did/fisco-bcos-browser/server/apps/fisco-bcos-browser.jar started by root in /root/did/fisco-bcos-browser/server)
+2024-04-21 16:14:24.916 [main] INFO  Application() - No active profile set, falling back to default profiles: default
+2024-04-21 16:14:24.977 [main] INFO  AnnotationConfigEmbeddedWebApplicationContext() - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@cb0755b: startup date [Sun Apr 21 16:14:24 CST 2024]; root of context hierarchy
+2024-04-21 16:14:25.475 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 5.3.6.Final
+2024-04-21 16:14:26.052 [main] INFO  PostProcessorRegistrationDelegate$BeanPostProcessorChecker() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a0866479] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-21 16:14:26.374 [main] INFO  TomcatEmbeddedServletContainer() - Tomcat initialized with port(s): 5101 (http)
+2024-04-21 16:14:26.460 [localhost-startStop-1] INFO  ContextLoader() - Root WebApplicationContext: initialization completed in 1485 ms
+2024-04-21 16:14:26.535 [localhost-startStop-1] INFO  ServletRegistrationBean() - Mapping servlet: 'dispatcherServlet' to [/]
+2024-04-21 16:14:26.538 [localhost-startStop-1] INFO  FilterRegistrationBean() - Mapping filter: 'characterEncodingFilter' to: [/*]
+2024-04-21 16:14:26.538 [localhost-startStop-1] INFO  FilterRegistrationBean() - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2024-04-21 16:14:26.538 [localhost-startStop-1] INFO  FilterRegistrationBean() - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2024-04-21 16:14:26.538 [localhost-startStop-1] INFO  FilterRegistrationBean() - Mapping filter: 'requestContextFilter' to: [/*]
+2024-04-21 16:14:27.315 [main] WARN  AnnotationConfigEmbeddedWebApplicationContext() - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'initTable' defined in URL [jar:file:/root/did/fisco-bcos-browser/server/apps/fisco-bcos-browser.jar!/org/bcos/browser/config/InitTable.class]: Invocation of init method failed; nested exception is org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error updating database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+2024-04-21 16:14:27.328 [main] INFO  AutoConfigurationReportLoggingInitializer() - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.

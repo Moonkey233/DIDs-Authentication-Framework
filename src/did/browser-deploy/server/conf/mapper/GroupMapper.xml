@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.bcos.browser.mapper.GroupMapper">
+
+    <insert id="addGroup" parameterType="org.bcos.browser.entity.dto.Group">
+        INSERT INTO tb_group(
+            group_id,
+            group_name,
+            group_desc,
+            gmt_create,
+            gmt_modify
+        ) VALUES (
+            #{groupId},
+            #{groupName},
+            #{groupDesc},
+            now(),
+            now()
+        )
+    </insert>
+
+    <select id="getGroupList" resultType="org.bcos.browser.entity.dto.Group">
+        SELECT group_id as groupId,
+            group_name as groupName,
+            group_desc as groupDesc
+        FROM tb_group
+    </select>
+    
+    <select id="getGroupById" resultType="org.bcos.browser.entity.dto.Group">
+        SELECT group_id as groupId,
+            group_name as groupName,
+            group_desc as groupDesc
+        FROM tb_group 
+        WHERE group_id=#{groupId}
+    </select>
+    
+    <delete id="deleteGroup">
+        DELETE FROM tb_group WHERE group_id=#{groupId}
+    </delete>
+
+</mapper>

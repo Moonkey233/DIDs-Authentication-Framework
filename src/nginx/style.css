@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    flex-direction: column;
+    /* 设置为列布局 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    background-color: #f0f0f0;
+    color: #333;
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* 打字效果、内容和按钮区分开 */
+    height: 100vh; /* 可视窗口高度 */
+}
+body.dark-mode {
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* 设置为列布局 */
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    background: #333;
+    color: #f0f0f0;
+}
+
+#typing {
+    grid-row: 1;
+    white-space: pre;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    /* 在打字动效和按钮之间添加一些空间 */
+}
+
+.links {
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button.dark-mode {
+    background-color: #555;
+    color: #ddd;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.95);
+}
+
+#typing {
+    white-space: pre;
+    font-size: 24px;
+    color: #333;
+    position: relative;
+    /* 确保能够相对于此元素定位光标 */
+}
+
+#typing:after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-left: 5px;
+    animation: blink-cursor 1s infinite;
+}
+
+@keyframes blink-cursor {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+        /* 光标在原始大小和放大50%之间变化 */
+    }
+}

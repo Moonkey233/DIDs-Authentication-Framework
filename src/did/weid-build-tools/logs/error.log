@@ -1,0 +1,4 @@
+2024-04-23 18:16:41.945 [pool-4-thread-1] ERROR ConnectionManager() - connect to 127.0.0.1:20200 failed! Please make sure the nodes have been started, and the network between the SDK and the nodes are connected normally.reason: Connection refused: /127.0.0.1:20200
+, cause: Connection refused: /127.0.0.1:20200
+2024-04-23 18:16:41.946 [pool-4-thread-1] ERROR ConnectionManager() -  reconnect to 127.0.0.1:20200, error: [{"code":2, "msg":"connect to 127.0.0.1:20200 failed! Please make sure the nodes have been started, and the network between the SDK and the nodes are connected normally.reason: Connection refused: /127.0.0.1:20200
+"}]

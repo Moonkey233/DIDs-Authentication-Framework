@@ -1,0 +1,531 @@
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : which git
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : which git,status :0 , output: /usr/bin/git
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : which wget
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : which wget,status :0 , output: /usr/bin/wget
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : which openssl
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : which openssl,status :0 , output: /usr/bin/openssl
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : which curl
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : which curl,status :0 , output: /usr/bin/curl
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : which nginx
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : which nginx,status :0 , output: /usr/sbin/nginx
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : java -version
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : java -version,status :0 , output: java version "1.8.0_231"
+Java(TM) SE Runtime Environment (build 1.8.0_231-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.231-b11, mixed mode)
+[2024-04-21 15:37:54] [INFO]  execute cmd  start ,cmd : echo $JAVA_HOME
+[2024-04-21 15:37:54] [INFO]  execute cmd  end ,cmd : echo $JAVA_HOME,status :0 , output: /root/java/jdk1.8.0_231
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:37:54] [INFO] check db user/password correct!
+[2024-04-21 15:37:54] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:37:54] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:04] [INFO]  execute cmd  start ,cmd : unzip -o fisco-bcos-browser.zip
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : unzip -o fisco-bcos-browser.zip,status :0 , output: Archive:  fisco-bcos-browser.zip
+   creating: server/
+   creating: server/apps/
+  inflating: server/apps/fisco-bcos-browser.jar  
+   creating: server/conf/
+  inflating: server/conf/application.yml  
+  inflating: server/conf/log4j2.xml  
+   creating: server/conf/mapper/
+  inflating: server/conf/mapper/BlockChainInfoMapper.xml  
+  inflating: server/conf/mapper/BlockMapper.xml  
+  inflating: server/conf/mapper/ChainContractMapper.xml  
+  inflating: server/conf/mapper/ChainUserMapper.xml  
+  inflating: server/conf/mapper/ContractMapper.xml  
+  inflating: server/conf/mapper/FunctionMapper.xml  
+  inflating: server/conf/mapper/GroupMapper.xml  
+  inflating: server/conf/mapper/NodeMapper.xml  
+  inflating: server/conf/mapper/TableMapper.xml  
+  inflating: server/conf/mapper/TransactionMapper.xml  
+  inflating: server/conf/mapper/UserMapper.xml  
+   creating: server/lib/
+  inflating: server/lib/activation-1.1.1.jar  
+  inflating: server/lib/antlr4-runtime-4.7.2.jar  
+  inflating: server/lib/audience-annotations-0.5.0.jar  
+  inflating: server/lib/base64-2.3.9.jar  
+  inflating: server/lib/bcprov-jdk15on-1.60.jar  
+  inflating: server/lib/byte-buddy-1.7.9.jar  
+  inflating: server/lib/checker-qual-3.5.0.jar  
+  inflating: server/lib/classmate-1.3.4.jar  
+  inflating: server/lib/commons-codec-1.11.jar  
+  inflating: server/lib/commons-collections4-4.2.jar  
+  inflating: server/lib/commons-dbcp-1.4.jar  
+  inflating: server/lib/commons-exec-1.3.jar  
+  inflating: server/lib/commons-fileupload-1.4.jar  
+  inflating: server/lib/commons-io-2.6.jar  
+  inflating: server/lib/commons-lang-2.6.jar  
+  inflating: server/lib/commons-lang3-3.12.0.jar  
+  inflating: server/lib/commons-logging-1.2.jar  
+  inflating: server/lib/commons-pool-1.5.4.jar  
+  inflating: server/lib/compiler-0.9.6.jar  
+  inflating: server/lib/curator-client-5.1.0.jar  
+  inflating: server/lib/curator-framework-5.1.0.jar  
+  inflating: server/lib/curator-recipes-5.1.0.jar  
+  inflating: server/lib/data-export-sdk-1.7.7.jar  
+  inflating: server/lib/elasticjob-api-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-dataflow-executor-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-executor-kernel-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-infra-common-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-lite-core-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-registry-center-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-script-executor-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-simple-executor-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-tracing-api-3.0.0-alpha.jar  
+  inflating: server/lib/elasticjob-tracing-rdb-3.0.0-alpha.jar  
+  inflating: server/lib/elasticsearch-7.10.2.jar  
+  inflating: server/lib/elasticsearch-cli-7.10.2.jar  
+  inflating: server/lib/elasticsearch-core-7.10.2.jar  
+  inflating: server/lib/elasticsearch-geo-7.10.2.jar  
+  inflating: server/lib/elasticsearch-rest-client-7.10.2.jar  
+  inflating: server/lib/elasticsearch-secure-sm-7.10.2.jar  
+  inflating: server/lib/elasticsearch-ssl-config-7.10.2.jar  
+  inflating: server/lib/elasticsearch-x-content-7.10.2.jar  
+  inflating: server/lib/error_prone_annotations-2.3.4.jar  
+  inflating: server/lib/failureaccess-1.0.1.jar  
+  inflating: server/lib/fisco-bcos-java-sdk-2.9.0.jar  
+  inflating: server/lib/groovy-2.4.19-indy.jar  
+  inflating: server/lib/gson-2.8.1.jar  
+  inflating: server/lib/guava-30.0-jre.jar  
+  inflating: server/lib/hamcrest-core-1.3.jar  
+  inflating: server/lib/HdrHistogram-2.1.9.jar  
+  inflating: server/lib/hibernate-validator-5.3.6.Final.jar  
+  inflating: server/lib/HikariCP-3.4.1.jar  
+  inflating: server/lib/HikariCP-java7-2.4.13.jar  
+  inflating: server/lib/hppc-0.8.1.jar  
+  inflating: server/lib/httpasyncclient-4.1.4.jar  
+  inflating: server/lib/httpclient-4.5.10.jar  
+  inflating: server/lib/httpcore-4.4.12.jar  
+  inflating: server/lib/httpcore-nio-4.4.12.jar  
+  inflating: server/lib/hutool-all-5.3.7.jar  
+  inflating: server/lib/j2objc-annotations-1.3.jar  
+  inflating: server/lib/jackson-annotations-2.13.2.jar  
+  inflating: server/lib/jackson-core-2.13.2.jar  
+  inflating: server/lib/jackson-databind-2.13.2.2.jar  
+  inflating: server/lib/jackson-dataformat-cbor-2.10.4.jar  
+  inflating: server/lib/jackson-dataformat-smile-2.10.4.jar  
+  inflating: server/lib/jackson-dataformat-yaml-2.10.4.jar  
+  inflating: server/lib/jackson-datatype-jsr310-2.13.2.jar  
+  inflating: server/lib/javapoet-1.7.0.jar  
+  inflating: server/lib/javassist-3.21.0-GA.jar  
+  inflating: server/lib/jaxb-api-2.3.0.jar  
+  inflating: server/lib/jaxb-core-2.3.0.jar  
+  inflating: server/lib/jaxb-impl-2.3.0.jar  
+  inflating: server/lib/jboss-logging-3.3.0.Final.jar  
+  inflating: server/lib/jcl-over-slf4j-1.7.12.jar  
+  inflating: server/lib/jna-5.5.0.jar  
+  inflating: server/lib/joda-time-2.10.4.jar  
+  inflating: server/lib/jopt-simple-5.0.2.jar  
+  inflating: server/lib/jsonrpc4j-1.5.1.jar  
+  inflating: server/lib/jsr305-3.0.2.jar  
+  inflating: server/lib/junit-4.12.jar  
+  inflating: server/lib/lang-mustache-client-7.10.2.jar  
+  inflating: server/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar  
+  inflating: server/lib/log4j-api-2.17.2.jar  
+  inflating: server/lib/log4j-core-2.17.2.jar  
+  inflating: server/lib/log4j-slf4j-impl-2.17.2.jar  
+  inflating: server/lib/log4j-web-2.17.2.jar  
+  inflating: server/lib/lombok-1.18.6.jar  
+  inflating: server/lib/lucene-analyzers-common-8.7.0.jar  
+  inflating: server/lib/lucene-backward-codecs-8.7.0.jar  
+  inflating: server/lib/lucene-core-8.7.0.jar  
+  inflating: server/lib/lucene-grouping-8.7.0.jar  
+  inflating: server/lib/lucene-highlighter-8.7.0.jar  
+  inflating: server/lib/lucene-join-8.7.0.jar  
+  inflating: server/lib/lucene-memory-8.7.0.jar  
+  inflating: server/lib/lucene-misc-8.7.0.jar  
+  inflating: server/lib/lucene-queries-8.7.0.jar  
+  inflating: server/lib/lucene-queryparser-8.7.0.jar  
+  inflating: server/lib/lucene-sandbox-8.7.0.jar  
+  inflating: server/lib/lucene-spatial-extras-8.7.0.jar  
+  inflating: server/lib/lucene-spatial3d-8.7.0.jar  
+  inflating: server/lib/lucene-suggest-8.7.0.jar  
+  inflating: server/lib/mapstruct-1.2.0.Final.jar  
+  inflating: server/lib/mchange-commons-java-0.2.15.jar  
+  inflating: server/lib/mybatis-3.4.5.jar  
+  inflating: server/lib/mybatis-spring-1.3.1.jar  
+  inflating: server/lib/mybatis-spring-boot-autoconfigure-1.3.1.jar  
+  inflating: server/lib/mybatis-spring-boot-starter-1.3.1.jar  
+  inflating: server/lib/mysql-connector-java-8.0.26.jar  
+  inflating: server/lib/netty-all-4.1.77.Final.jar  
+  inflating: server/lib/netty-buffer-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-dns-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-haproxy-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-http-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-http2-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-memcache-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-mqtt-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-redis-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-smtp-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-socks-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-stomp-4.1.77.Final.jar  
+  inflating: server/lib/netty-codec-xml-4.1.77.Final.jar  
+  inflating: server/lib/netty-common-4.1.77.Final.jar  
+  inflating: server/lib/netty-handler-4.1.77.Final.jar  
+  inflating: server/lib/netty-handler-proxy-4.1.77.Final.jar  
+  inflating: server/lib/netty-resolver-4.1.77.Final.jar  
+  inflating: server/lib/netty-resolver-dns-4.1.77.Final.jar  
+  inflating: server/lib/netty-resolver-dns-classes-macos-4.1.77.Final.jar  
+  inflating: server/lib/netty-resolver-dns-native-macos-4.1.77.Final-osx-aarch_64.jar  
+  inflating: server/lib/netty-resolver-dns-native-macos-4.1.77.Final-osx-x86_64.jar  
+  inflating: server/lib/netty-sm-ssl-context-1.5.0.jar  
+  inflating: server/lib/netty-transport-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-classes-epoll-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-classes-kqueue-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-native-epoll-4.1.77.Final-linux-aarch_64.jar  
+  inflating: server/lib/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar  
+  inflating: server/lib/netty-transport-native-epoll-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-native-kqueue-4.1.77.Final-osx-aarch_64.jar  
+  inflating: server/lib/netty-transport-native-kqueue-4.1.77.Final-osx-x86_64.jar  
+  inflating: server/lib/netty-transport-native-unix-common-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-rxtx-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-sctp-4.1.77.Final.jar  
+  inflating: server/lib/netty-transport-udt-4.1.77.Final.jar  
+  inflating: server/lib/parent-join-client-7.10.2.jar  
+  inflating: server/lib/percolator-client-7.10.2.jar  
+  inflating: server/lib/picocli-3.6.0.jar  
+  inflating: server/lib/protobuf-java-3.11.4.jar  
+  inflating: server/lib/quartz-2.3.2.jar  
+  inflating: server/lib/rank-eval-client-7.10.2.jar  
+  inflating: server/lib/reflections-0.9.11.jar  
+  inflating: server/lib/reindex-client-7.10.2.jar  
+  inflating: server/lib/shardingsphere-distsql-parser-engine-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-distsql-parser-statement-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-encrypt-api-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-encrypt-common-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-encrypt-merge-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-encrypt-rewrite-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-binder-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-common-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-context-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-datetime-spi-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-executor-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-merge-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-parser-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-rewrite-engine-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-infra-route-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-jdbc-core-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-replica-query-api-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-replica-query-common-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-replica-query-route-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-shadow-api-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-shadow-common-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-shadow-rewrite-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-shadow-route-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sharding-api-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sharding-common-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sharding-merge-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sharding-rewrite-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sharding-route-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-engine-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-mysql-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-oracle-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-postgresql-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-spi-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-sql92-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-sqlserver-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-sql-parser-statement-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-system-datetime-5.0.0-alpha.jar  
+  inflating: server/lib/shardingsphere-transaction-core-5.0.0-alpha.jar  
+  inflating: server/lib/slf4j-api-1.7.32.jar  
+  inflating: server/lib/snakeyaml-1.26.jar  
+  inflating: server/lib/spring-aop-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-beans-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-boot-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-boot-autoconfigure-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-boot-configuration-processor-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-boot-starter-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-boot-starter-jdbc-1.5.6.RELEASE.jar  
+  inflating: server/lib/spring-boot-starter-tomcat-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-boot-starter-web-1.5.22.RELEASE.jar  
+  inflating: server/lib/spring-context-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-core-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-expression-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-jdbc-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-plugin-core-1.2.0.RELEASE.jar  
+  inflating: server/lib/spring-plugin-metadata-1.2.0.RELEASE.jar  
+  inflating: server/lib/spring-tx-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-web-4.3.30.RELEASE.jar  
+  inflating: server/lib/spring-webmvc-4.3.30.RELEASE.jar  
+  inflating: server/lib/springfox-core-2.8.0.jar  
+  inflating: server/lib/springfox-schema-2.8.0.jar  
+  inflating: server/lib/springfox-spi-2.8.0.jar  
+  inflating: server/lib/springfox-spring-web-2.8.0.jar  
+  inflating: server/lib/springfox-swagger-common-2.8.0.jar  
+  inflating: server/lib/springfox-swagger-ui-2.8.0.jar  
+  inflating: server/lib/springfox-swagger2-2.8.0.jar  
+  inflating: server/lib/swagger-annotations-1.5.14.jar  
+  inflating: server/lib/swagger-models-1.5.14.jar  
+  inflating: server/lib/t-digest-3.2.jar  
+  inflating: server/lib/tcnative-2.0.51.0.jar  
+  inflating: server/lib/tomcat-annotations-api-8.5.43.jar  
+  inflating: server/lib/tomcat-embed-core-8.5.43.jar  
+  inflating: server/lib/tomcat-embed-el-8.5.43.jar  
+  inflating: server/lib/tomcat-embed-websocket-8.5.43.jar  
+  inflating: server/lib/tomcat-jdbc-8.5.16.jar  
+  inflating: server/lib/tomcat-juli-8.5.16.jar  
+  inflating: server/lib/toml4j-0.7.2.jar  
+  inflating: server/lib/transport-7.10.2.jar  
+  inflating: server/lib/transport-netty4-client-7.10.2.jar  
+  inflating: server/lib/validation-api-2.0.1.Final.jar  
+  inflating: server/lib/webank-blockchain-hsm-crypto-1.0.0-GMT0018.jar  
+  inflating: server/lib/webank-blockchain-java-crypto-1.0.2.jar  
+  inflating: server/lib/zookeeper-3.6.0.jar  
+  inflating: server/lib/zookeeper-jute-3.6.0.jar  
+   creating: server/script/
+  inflating: server/script/browser-ddl.sql  
+  inflating: server/script/browser-dml.sql  
+  inflating: server/script/browser-sql.list  
+  inflating: server/script/browser.sh  
+  inflating: server/start.sh         
+  inflating: server/status.sh        
+  inflating: server/stop.sh          
+   creating: web/
+  inflating: web/index.html          
+   creating: web/static/
+   creating: web/static/fonts/
+  inflating: web/static/fonts/element-icons.535877f.woff  
+  inflating: web/static/fonts/element-icons.732389d.ttf  
+  inflating: web/static/fonts/iconfont.2db9f5e.eot  
+  inflating: web/static/fonts/iconfont.3941227.ttf  
+   creating: web/static/image/
+  inflating: web/static/image/add_node.png  
+  inflating: web/static/image/contract.png  
+  inflating: web/static/image/create_group.png  
+  inflating: web/static/image/group_config.png  
+ extracting: web/static/image/logo-title.png  
+  inflating: web/static/image/overview.png  
+  inflating: web/static/image/receipt.png  
+  inflating: web/static/image/show.jpg  
+  inflating: web/static/image/switch_group.jpg  
+  inflating: web/static/image/transaction.png  
+   creating: web/static/img/
+  inflating: web/static/img/add_node.1de6182.png  
+  inflating: web/static/img/contract.257703a.png  
+  inflating: web/static/img/create_group.024ede5.png  
+  inflating: web/static/img/fisco-bcos-logo.3a5e45c.png  
+  inflating: web/static/img/group_config.4980d50.png  
+  inflating: web/static/img/header-ng.b304cfc.png  
+  inflating: web/static/img/iconfont.1d25827.svg  
+  inflating: web/static/img/overview.108873b.png  
+  inflating: web/static/img/receipt.a1fcec0.png  
+  inflating: web/static/img/show.84f6cea.jpg  
+  inflating: web/static/img/switch_group.a55e8b6.jpg  
+  inflating: web/static/img/transaction.03b0314.png  
+  inflating: web/static/img/webfont.0d9fe7f.svg  
+   creating: web/static/js/
+  inflating: web/static/js/0.825c386145e2ee00c2c1.js  
+  inflating: web/static/js/1.2c5efae5ad20df562a48.js  
+  inflating: web/static/js/10.82eef27d4273da511b6d.js  
+  inflating: web/static/js/11.efe5d74be459f10233eb.js  
+  inflating: web/static/js/2.006aed10cf629b8eb237.js  
+  inflating: web/static/js/4.04fc74eef6cc42d61fa4.js  
+  inflating: web/static/js/5.c7ecab3b6785e4bc1932.js  
+  inflating: web/static/js/6.f7821e6259ab22ed4a6b.js  
+  inflating: web/static/js/7.31674a34293c57e1d876.js  
+  inflating: web/static/js/8.d016a0fffd6c34d91932.js  
+  inflating: web/static/js/9.1c6fb1dc8e59f75bdbd7.js  
+  inflating: web/static/js/base-loading.js  
+  inflating: web/static/js/runtime.e120312d34985b096649.js  
+  inflating: web/static/js/v0.4.25-gm.js  
+  inflating: web/static/js/v0.4.25.js  
+  inflating: web/static/js/v0.5.2-gm.js  
+  inflating: web/static/js/v0.5.2.js  
+  inflating: web/static/js/v0.6.10-gm.js  
+  inflating: web/static/js/v0.6.10.js  
+  inflating: web/static/js/web3.min.js  
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : cp -f /root/did/browser-deploy/server/script/browser.sh /root/did/browser-deploy/server/script/temp.sh
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : cp -f /root/did/browser-deploy/server/script/browser.sh /root/did/browser-deploy/server/script/temp.sh,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : cp -f /root/did/browser-deploy/server/conf/application.yml /root/did/browser-deploy/server/conf/temp.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : cp -f /root/did/browser-deploy/server/conf/application.yml /root/did/browser-deploy/server/conf/temp.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/dbUsername/root/g" /root/did/browser-deploy/server/script/browser.sh
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/dbUsername/root/g" /root/did/browser-deploy/server/script/browser.sh,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/dbPassword/020723/g" /root/did/browser-deploy/server/script/browser.sh
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/dbPassword/020723/g" /root/did/browser-deploy/server/script/browser.sh,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/db_browser/db_browser/g" /root/did/browser-deploy/server/script/browser.sh
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/db_browser/db_browser/g" /root/did/browser-deploy/server/script/browser.sh,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/127.0.0.1/127.0.0.1/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/127.0.0.1/127.0.0.1/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/3306/3306/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/3306/3306/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/dbUsername/root/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/dbUsername/root/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/dbPassword/020723/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/dbPassword/020723/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/db_browser/db_browser/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/db_browser/db_browser/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]  execute cmd  start ,cmd : sed -i "s/5101/5101/g" /root/did/browser-deploy/server/conf/application.yml
+[2024-04-21 15:38:06] [INFO]  execute cmd  end ,cmd : sed -i "s/5101/5101/g" /root/did/browser-deploy/server/conf/application.yml,status :0 , output: 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:06] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:06] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO] DROP DATABASE IF EXISTS db_browser
+[2024-04-21 15:38:30] [INFO] CREATE DATABASE IF NOT EXISTS db_browser
+[2024-04-21 15:38:30] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:30] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:30] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:30] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:30] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:30] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:30] [INFO] reading table sql file /root/did/browser-deploy/server/script/browser-ddl.sql
+[2024-04-21 15:38:30] [INFO] reading table sql file /root/did/browser-deploy/server/script/browser-dml.sql
+[2024-04-21 15:38:30] [INFO] start create tables...
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_group (    group_id int(11) NOT NULL COMMENT '群组ID',    group_name varchar(128) NOT NULL COMMENT '群组名称',    group_desc varchar(1024) COMMENT '群组描述',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (group_id)) COMMENT='群组信息表' ENGINE=InnoDB CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_blockchaininfo (    group_id int(11) NOT NULL COMMENT '所属群组ID',    latest_number int(11) COMMENT '最新块高',    txn int(11) COMMENT '交易量',    pending_txn int(11) COMMENT '正在处理但还未上链的交易个数',    pbft_view int(11) COMMENT 'PBFT VIEW',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (group_id)) COMMENT='区块链全局信息表' ENGINE=InnoDB DEFAULT CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_contract (    contract_id int(11) NOT NULL AUTO_INCREMENT COMMENT '合约编号',    contract_name varchar(128) COMMENT '合约名称',    contract_source text COMMENT '合约源码',    contract_status tinyint(4) DEFAULT '0' COMMENT '编译（0：未编译，1：编译成功，2：编译失败）',    contract_abi text COMMENT '编译合约生成的abi文件内容',    contract_bin text COMMENT '合约binary',    contract_path varchar(128) COMMENT '合约相对路径',    contract_address varchar(128) COMMENT '合约地址',    contract_desc text COMMENT '描述',    error_info text COMMENT '编译错误信息',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (contract_id),    UNIQUE KEY (contract_name, contract_path)) COMMENT='合约信息表' ENGINE=InnoDB AUTO_INCREMENT=100001 DEFAULT CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_function (    method_id varchar(128) COMMENT '方法id',    abi_info text COMMENT 'abi信息',    type varchar(32) COMMENT '方法类型',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (method_id)) COMMENT='方法解析信息表' ENGINE=InnoDB DEFAULT CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_user (    user_id int(11) NOT NULL AUTO_INCREMENT COMMENT '用户编号',    user_name varchar(64) binary NOT NULL COMMENT '用户名',    group_id int(11) DEFAULT NULL COMMENT '所属群组编号',    address varchar(64) DEFAULT NULL COMMENT '公钥地址',    description varchar(250) DEFAULT NULL COMMENT '备注',    create_time datetime DEFAULT NULL COMMENT '创建时间',    modify_time datetime DEFAULT NULL COMMENT '修改时间',    PRIMARY KEY (user_id),    UNIQUE KEY unique_name (group_id,user_name),    KEY index_address (address)) COMMENT='用户信息表' ENGINE=InnoDB AUTO_INCREMENT=200001 DEFAULT CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_node (    node_id varchar(192) NOT NULL COMMENT '节点ID',    group_id int(11) NOT NULL COMMENT '所属群组id',    ip varchar(16) COMMENT '节点ip',    rpc_port varchar(16) COMMENT '节点rpc端口',    p2p_port varchar(16) COMMENT '节点p2p端口',    block_number int(11) DEFAULT 0 COMMENT '节点块高',    pbft_view int(11) DEFAULT 0 COMMENT 'PBFT view',    status tinyint(4) DEFAULT '0' COMMENT '节点状态（0：正常，1：异常）',    type tinyint(4) DEFAULT '0' COMMENT '节点类型（0：手动添加，1：链上同步）',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (group_id,node_id)) COMMENT='节点信息表' ENGINE=InnoDB DEFAULT CHARSET=utf8
+[2024-04-21 15:38:30] [INFO] CREATE TABLE IF NOT EXISTS tb_txn_daily (    pk_date date NOT NULL COMMENT '时间',    group_id int(11) NOT NULL COMMENT '所属群组ID',    txn int(11) COMMENT '交易量',    block_number int(11) DEFAULT '0' COMMENT '当前统计到的块高',    gmt_create datetime COMMENT '创建时间',    gmt_modify datetime COMMENT '修改时间',    PRIMARY KEY (group_id,pk_date)) COMMENT='每日交易量记录表' ENGINE=InnoDB DEFAULT CHARSET=utf8
+[2024-04-21 15:38:31] [INFO] start init default data of tables...
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xbd291aef', '{\"constant\":false,\"inputs\":[{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"value\",\"type\":\"string\"}],\"name\":\"setValueByKey\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x56004b6a', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"valueField\",\"type\":\"string\"}],\"name\":\"createTable\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xf23f63c9', '{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"string\"}],\"name\":\"openTable\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x2dca76c1', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"entry\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"update\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x983c6c4f', '{\"constant\":true,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"select\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xa72a1e65', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xa216464b', '{\"constant\":false,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"version\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"},{\"name\":\"abi\",\"type\":\"string\"}],\"name\":\"insert\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x2800efc0', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"addObserver\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x89152d1f', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"addSealer\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x80599e4b', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x819a3d62', '{\"constant\":true,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"}],\"name\":\"selectByName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x897f0251', '{\"constant\":true,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"version\",\"type\":\"string\"}],\"name\":\"selectByNameAndVersion\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x06e63ff8', '{\"constant\":false,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"}],\"name\":\"insert\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x20586031', '{\"constant\":true,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"}],\"name\":\"queryByName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x44590a7e', '{\"constant\":false,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x96ec37c4', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantWrite\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x99c26010', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeWrite\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x30ccebb5', '{\"constant\":true,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"getStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x45c8b1a6', '{\"constant\":false,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"unfreeze\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x8d1fdf2f', '{\"constant\":false,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"freeze\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xa721fb43', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"userAddr\",\"type\":\"address\"}],\"name\":\"grantManager\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xbc92a700', '{\"constant\":true,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"queryManager\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"address[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x3a67288f', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"userAddr\",\"type\":\"address\"}],\"name\":\"revokeManager\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x039a93ca', '{\"constant\":true,\"inputs\":[],\"name\":\"listOperators\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x246c3376', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"},{\"name\":\"weight\",\"type\":\"int256\"}],\"name\":\"updateCommitteeMemberWeight\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x281af27d', '{\"constant\":true,\"inputs\":[],\"name\":\"queryThreshold\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x6c147119', '{\"constant\":true,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"queryCommitteeMemberWeight\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x6f8f521f', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantCommitteeMember\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x788649ea', '{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"unfreezeAccount\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x885a3a72', '{\"constant\":true,\"inputs\":[],\"name\":\"listCommitteeMembers\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x97b00861', '{\"constant\":false,\"inputs\":[{\"name\":\"threshold\",\"type\":\"int256\"}],\"name\":\"updateThreshold\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xcafb4d1b', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeCommitteeMember\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xe348da13', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xf26c159f', '{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"freezeAccount\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xfad8b32a', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xfd4fa05a', '{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"getAccountStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x0749b518', '{\"constant\":false,\"inputs\":[{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"value\",\"type\":\"string\"}],\"name\":\"setValueByKey\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xc92a7801', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"valueField\",\"type\":\"string\"}],\"name\":\"createTable\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x59a48b65', '{\"constant\":true,\"inputs\":[{\"name\":\"\",\"type\":\"string\"}],\"name\":\"openTable\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x10bd675b', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"entry\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"update\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x7388111f', '{\"constant\":true,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"select\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x81b81824', '{\"constant\":false,\"inputs\":[{\"name\":\"tableName\",\"type\":\"string\"},{\"name\":\"key\",\"type\":\"string\"},{\"name\":\"condition\",\"type\":\"string\"},{\"name\":\"optional\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xb8eaa08d', '{\"constant\":false,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"version\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"},{\"name\":\"abi\",\"type\":\"string\"}],\"name\":\"insert\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x25e85d16', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"addObserver\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xdf434acc', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"addSealer\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x86b733f9', '{\"constant\":false,\"inputs\":[{\"name\":\"nodeID\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x078af4af', '{\"constant\":true,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"}],\"name\":\"selectByName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xec72a422', '{\"constant\":true,\"inputs\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"version\",\"type\":\"string\"}],\"name\":\"selectByNameAndVersion\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xce0a9fb9', '{\"constant\":false,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"}],\"name\":\"insert\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xbbec3f91', '{\"constant\":true,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"}],\"name\":\"queryByName\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x85d23afc', '{\"constant\":false,\"inputs\":[{\"name\":\"table_name\",\"type\":\"string\"},{\"name\":\"addr\",\"type\":\"string\"}],\"name\":\"remove\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xd010d23c', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantWrite\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xdf12fe78', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeWrite\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xbca14431', '{\"constant\":true,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"getStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x61cb24c3', '{\"constant\":false,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"unfreeze\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xf12c66df', '{\"constant\":false,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"freeze\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x27c46414', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"userAddr\",\"type\":\"address\"}],\"name\":\"grantManager\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xa450e730', '{\"constant\":true,\"inputs\":[{\"name\":\"addr\",\"type\":\"address\"}],\"name\":\"queryManager\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"},{\"name\":\"\",\"type\":\"address[]\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x00c77684', '{\"constant\":false,\"inputs\":[{\"name\":\"contractAddr\",\"type\":\"address\"},{\"name\":\"userAddr\",\"type\":\"address\"}],\"name\":\"revokeManager\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xb90059a3', '{\"constant\":true,\"inputs\":[],\"name\":\"listOperators\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x95e96f8f', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"},{\"name\":\"weight\",\"type\":\"int256\"}],\"name\":\"updateCommitteeMemberWeight\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x35365efb', '{\"constant\":true,\"inputs\":[],\"name\":\"queryThreshold\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xc784c982', '{\"constant\":true,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"queryCommitteeMemberWeight\",\"outputs\":[{\"name\":\"\",\"type\":\"bool\"},{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xcbff0346', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantCommitteeMember\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x2312386d', '{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"unfreezeAccount\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x77cb0994', '{\"constant\":true,\"inputs\":[],\"name\":\"listCommitteeMembers\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x931af204', '{\"constant\":false,\"inputs\":[{\"name\":\"threshold\",\"type\":\"int256\"}],\"name\":\"updateThreshold\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x681362f3', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeCommitteeMember\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xd1db6540', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"grantOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0x563e46a5', '{\"constant\":false,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"freezeAccount\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xc9ab2069', '{\"constant\":false,\"inputs\":[{\"name\":\"user\",\"type\":\"address\"}],\"name\":\"revokeOperator\",\"outputs\":[{\"name\":\"\",\"type\":\"int256\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] INSERT INTO `tb_function`(`method_id`, `abi_info`, `type`, `gmt_create`, `gmt_modify`) VALUES ('0xa41e61cc', '{\"constant\":true,\"inputs\":[{\"name\":\"account\",\"type\":\"address\"}],\"name\":\"getAccountStatus\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}', 'function', now(), now())
+[2024-04-21 15:38:31] [INFO] init tables success!
+[2024-04-21 15:38:31] [INFO]  execute cmd  start ,cmd : source /etc/profile
+[2024-04-21 15:38:31] [INFO]  execute cmd  end ,cmd : source /etc/profile,status :0 , output: 
+[2024-04-21 15:38:31] [INFO]  execute cmd  start ,cmd : chmod u+x *.sh
+[2024-04-21 15:38:31] [INFO]  execute cmd  end ,cmd : chmod u+x *.sh,status :0 , output: 
+[2024-04-21 15:38:31] [INFO]  execute cmd  start ,cmd : dos2unix *.sh
+[2024-04-21 15:38:31] [INFO]  execute cmd  end ,cmd : dos2unix *.sh,status :0 , output: dos2unix: converting file start.sh to Unix format ...
+dos2unix: converting file status.sh to Unix format ...
+dos2unix: converting file stop.sh to Unix format ...
+[2024-04-21 15:38:31] [INFO]  execute cmd  start ,cmd : bash start.sh
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : bash start.sh,status :0 , output: ===============================================================================================
+Starting org.bcos.browser.Application (PID=17624)...[Success]
+===============================================================================================
+[2024-04-21 15:38:36] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:36] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:36] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:36] [INFO]  commProperties is /root/did/browser-deploy/common.properties 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : cp -f /root/did/browser-deploy/comm/nginx.conf /root/did/browser-deploy/comm/temp.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : cp -f /root/did/browser-deploy/comm/nginx.conf /root/did/browser-deploy/comm/temp.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : mkdir -p /root/did/browser-deploy/web/log
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : mkdir -p /root/did/browser-deploy/web/log,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sed -i "s/5101/5101/g" /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : sed -i "s/5101/5101/g" /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sed -i "s/5100/5100/g" /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : sed -i "s/5100/5100/g" /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sed -i "s:log_path:/root/did/browser-deploy/web/log:g" /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : sed -i "s:log_path:/root/did/browser-deploy/web/log:g" /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sed -i "s:web_page_url:/root/did/browser-deploy/web:g" /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : sed -i "s:web_page_url:/root/did/browser-deploy/web:g" /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sed -i "s:pid_file:/root/did/browser-deploy/nginx-browser-web.pid:g" /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : sed -i "s:pid_file:/root/did/browser-deploy/nginx-browser-web.pid:g" /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : mkdir -p /root/did/browser-deploy/web/log
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : mkdir -p /root/did/browser-deploy/web/log,status :0 , output: 
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : which nginx
+[2024-04-21 15:38:36] [INFO]  execute cmd  end ,cmd : which nginx,status :0 , output: /usr/sbin/nginx
+[2024-04-21 15:38:36] [INFO]  execute cmd  start ,cmd : sudo /usr/sbin/nginx -c /root/did/browser-deploy/comm/nginx.conf
+[2024-04-21 15:38:37] [INFO]  execute cmd  end ,cmd : sudo /usr/sbin/nginx -c /root/did/browser-deploy/comm/nginx.conf,status :0 , output: 
+[2024-04-21 15:38:37] [INFO]   os.getcwd() is /root/did/browser-deploy
+[2024-04-21 15:38:37] [INFO]  commProperties is /root/did/browser-deploy/common.properties 

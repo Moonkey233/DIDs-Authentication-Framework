@@ -69,8 +69,7 @@ inline bool UTILS::isPrime(const long long &number) {
 	if (number < 3 || number % 2 == 0) return number == 2;
 	long long u = number - 1, t = 0;
 	while (u % 2 == 0) u /= 2, ++t;
-	long long ud[] = {2, 325, 9375, 28178, 450775, 9780504, 1795265022};
-	for (long long a: ud) {
+	long long ud[] = {2, 325, 9375, 28178, 450775, 9780504, 1795265022};	for (long long a: ud) {
 		long long v = quickPower(a, u, number);
 		if (v == 1 || v == number - 1 || v == 0) continue;
 		for (long long j = 1; j <= t; j++) {

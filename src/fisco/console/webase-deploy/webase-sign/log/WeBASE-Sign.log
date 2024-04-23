@@ -1,0 +1,64 @@
+2024-04-23 13:31:29.837 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 6.2.5.Final
+2024-04-23 13:31:29.878 [main] INFO  Application() - Starting Application using Java 1.8.0_231 on DID with PID 16452 (/root/fisco/console/webase-deploy/webase-sign/apps/WeBASE-Sign.jar started by root in /root/fisco/console/webase-deploy/webase-sign)
+2024-04-23 13:31:29.881 [main] INFO  Application() - No active profile set, falling back to 1 default profile: "default"
+2024-04-23 13:31:31.744 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 5004 (http)
+2024-04-23 13:31:31.903 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 1933 ms
+2024-04-23 13:31:32.439 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2024-04-23 13:31:32.888 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2024-04-23 13:31:33.464 [main] INFO  PropertySourcedRequestMappingHandlerMapping() - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-23 13:31:35.851 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 5004 (http) with context path '/WeBASE-Sign'
+2024-04-23 13:31:35.851 [main] INFO  DocumentationPluginsBootstrapper() - Context refreshed
+2024-04-23 13:31:35.879 [main] INFO  DocumentationPluginsBootstrapper() - Found 1 custom documentation plugin(s)
+2024-04-23 13:31:35.931 [main] INFO  ApiListingReferenceScanner() - Scanning for api listing references
+2024-04-23 13:31:36.258 [main] INFO  Application() - Started Application in 6.767 seconds (JVM running for 7.451)
+2024-04-23 13:31:36.260 [main] INFO  Application() - main run success...
+2024-04-23 13:32:33.944 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2024-04-23 13:32:33.985 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Completed initialization in 41 ms
+2024-04-23 18:09:29.801 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 6.2.5.Final
+2024-04-23 18:09:29.831 [main] INFO  Application() - Starting Application using Java 1.8.0_231 on DID with PID 22620 (/root/fisco/console/webase-deploy/webase-sign/apps/WeBASE-Sign.jar started by root in /root/fisco/console/webase-deploy/webase-sign)
+2024-04-23 18:09:29.834 [main] INFO  Application() - No active profile set, falling back to 1 default profile: "default"
+2024-04-23 18:09:31.603 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 5004 (http)
+2024-04-23 18:09:31.740 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 1803 ms
+2024-04-23 18:09:32.441 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2024-04-23 18:09:32.878 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2024-04-23 18:09:33.457 [main] INFO  PropertySourcedRequestMappingHandlerMapping() - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-23 18:09:35.684 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 5004 (http) with context path '/WeBASE-Sign'
+2024-04-23 18:09:35.684 [main] INFO  DocumentationPluginsBootstrapper() - Context refreshed
+2024-04-23 18:09:35.709 [main] INFO  DocumentationPluginsBootstrapper() - Found 1 custom documentation plugin(s)
+2024-04-23 18:09:35.774 [main] INFO  ApiListingReferenceScanner() - Scanning for api listing references
+2024-04-23 18:09:36.060 [main] INFO  Application() - Started Application in 6.616 seconds (JVM running for 7.309)
+2024-04-23 18:09:36.062 [main] INFO  Application() - main run success...
+2024-04-23 18:14:02.447 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2024-04-23 18:14:02.467 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Completed initialization in 20 ms
+2024-04-23 18:19:29.376 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 6.2.5.Final
+2024-04-23 18:19:29.415 [main] INFO  Application() - Starting Application using Java 1.8.0_231 on DID with PID 1581 (/root/fisco/console/webase-deploy/webase-sign/apps/WeBASE-Sign.jar started by root in /root/fisco/console/webase-deploy/webase-sign)
+2024-04-23 18:19:29.417 [main] INFO  Application() - No active profile set, falling back to 1 default profile: "default"
+2024-04-23 18:19:31.362 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 5004 (http)
+2024-04-23 18:19:31.544 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 2073 ms
+2024-04-23 18:19:32.114 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2024-04-23 18:19:32.627 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2024-04-23 18:19:33.363 [main] INFO  PropertySourcedRequestMappingHandlerMapping() - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-23 18:19:34.965 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 5004 (http) with context path '/WeBASE-Sign'
+2024-04-23 18:19:34.966 [main] INFO  DocumentationPluginsBootstrapper() - Context refreshed
+2024-04-23 18:19:34.989 [main] INFO  DocumentationPluginsBootstrapper() - Found 1 custom documentation plugin(s)
+2024-04-23 18:19:35.018 [main] INFO  ApiListingReferenceScanner() - Scanning for api listing references
+2024-04-23 18:19:35.201 [main] INFO  Application() - Started Application in 6.183 seconds (JVM running for 7.462)
+2024-04-23 18:19:35.205 [main] INFO  Application() - main run success...
+2024-04-23 18:20:44.829 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2024-04-23 18:20:44.832 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Completed initialization in 3 ms
+2024-04-23 18:35:18.045 [background-preinit] INFO  Version() - HV000001: Hibernate Validator 6.2.5.Final
+2024-04-23 18:35:18.134 [main] INFO  Application() - Starting Application using Java 1.8.0_231 on DID with PID 3927 (/root/fisco/console/webase-deploy/webase-sign/apps/WeBASE-Sign.jar started by root in /root/fisco/console/webase-deploy/webase-sign)
+2024-04-23 18:35:18.150 [main] INFO  Application() - No active profile set, falling back to 1 default profile: "default"
+2024-04-23 18:35:19.972 [main] INFO  TomcatWebServer() - Tomcat initialized with port(s): 5004 (http)
+2024-04-23 18:35:20.137 [main] INFO  ServletWebServerApplicationContext() - Root WebApplicationContext: initialization completed in 1909 ms
+2024-04-23 18:35:20.699 [main] INFO  HikariDataSource() - HikariPool-1 - Starting...
+2024-04-23 18:35:21.142 [main] INFO  HikariDataSource() - HikariPool-1 - Start completed.
+2024-04-23 18:35:21.717 [main] INFO  PropertySourcedRequestMappingHandlerMapping() - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-04-23 18:35:23.747 [main] INFO  TomcatWebServer() - Tomcat started on port(s): 5004 (http) with context path '/WeBASE-Sign'
+2024-04-23 18:35:23.747 [main] INFO  DocumentationPluginsBootstrapper() - Context refreshed
+2024-04-23 18:35:23.778 [main] INFO  DocumentationPluginsBootstrapper() - Found 1 custom documentation plugin(s)
+2024-04-23 18:35:23.826 [main] INFO  ApiListingReferenceScanner() - Scanning for api listing references
+2024-04-23 18:35:24.205 [main] INFO  Application() - Started Application in 6.562 seconds (JVM running for 7.311)
+2024-04-23 18:35:24.208 [main] INFO  Application() - main run success...
+2024-04-23 19:02:32.504 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Initializing Servlet 'dispatcherServlet'
+2024-04-23 19:02:32.508 [http-nio-5004-exec-1] INFO  DispatcherServlet() - Completed initialization in 4 ms
