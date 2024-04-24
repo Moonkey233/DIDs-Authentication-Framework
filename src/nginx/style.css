@@ -12,9 +12,12 @@ html {
     background-color: #f0f0f0;
     color: #333;
     display: grid;
-    grid-template-rows: auto 1fr auto; /* 打字效果、内容和按钮区分开 */
-    height: 100vh; /* 可视窗口高度 */
+    grid-template-rows: auto 1fr auto;
+    /* 打字效果、内容和按钮区分开 */
+    height: 100vh;
+    /* 可视窗口高度 */
 }
+
 body.dark-mode {
     height: 100%;
     margin: 0;
@@ -105,4 +108,36 @@ body.dark-mode {
         transform: scale(1.5);
         /* 光标在原始大小和放大50%之间变化 */
     }
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* 设置所有超链接的默认颜色 */
+.icp {
+    color: #D3D3D3; /* 浅灰色 */
+    text-decoration: none; /* 可选：去除下划线 */
+}
+
+/* 设置超链接在鼠标悬停时的颜色 */
+.icp:hover {
+    color: #A9A9A9; /* 暗灰色，以提供一些视觉反馈 */
+}
+
+/* 设置超链接在被点击时的颜色 */
+.icp:active {
+    color: #808080; /* 更深的灰色 */
+}
+
+/* 设置超链接在被访问后的颜色 */
+.icp:visited {
+    color: #C0C0C0; /* 已访问链接的颜色，也是灰色系列 */
 }

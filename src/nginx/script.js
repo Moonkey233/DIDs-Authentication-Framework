@@ -39,17 +39,17 @@ function playTyping() {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    const themeToggle = document.getElementById('theme-toggle');
-    if (themeToggle) {
-        themeToggle.addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
-            const buttons = document.querySelectorAll('.button');
-            buttons.forEach(button => {
-                button.classList.toggle('dark-mode');
-            });
-        });
-    }
+	const themeToggle = document.getElementById('theme-toggle');
+	if (themeToggle) {
+		themeToggle.addEventListener('click', function () {
+			document.body.classList.toggle('dark-mode');
+			const buttons = document.querySelectorAll('.button');
+			buttons.forEach(button => {
+				button.classList.toggle('dark-mode');
+			});
+		});
+	}
 
-    // Rest of your playTyping code here
-    playTyping();
+	// Rest of your playTyping code here
+	playTyping();
 });
