@@ -1,0 +1,83 @@
+committee did:weid:1000:0x7035bd314c6fceb5b5826c67632bbab8aa6dbf10
+issuer did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230
+agent did:weid:1000:0x7b0293203caa03e1405517f8d38ad5a9c4f73a88
+
+did:weid:1000:0x19607cf2bc4538b49847b43688acf3befc487a41
+
+
+0xc72cc40da120c880521699e841c8d2185491c11d02d21a680440f728757a387d
+
+"context": "https://github.com/WeBankFinTech/WeIdentity/blob/master/context/v1",
+    "id": "b1790429-8bf7-45d0-9b58-334b4f2f416d",
+    "cptId": 2000001,
+    "issuer": "did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230",
+    "issuanceDate": 1714836929,
+    "expirationDate": 4868436929,
+    "claim": {
+      "gender": "M",
+      "name": "Moonkey_",
+      "age": 22
+    },
+    "proof": {
+      "creator": "did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230",
+      "salt": {
+        "gender": "qpM0S",
+        "name": "sJuNs",
+        "age": "fSTde"
+      },
+      "created": 1714836929,
+      "type": "Secp256k1",
+      "signatureValue": "eMlM32+fTi4bJAQITSJX/f36jbxf1Twjfls4scO74TYgAQd37sLzFhOgZ4pdE4IGYUOMHWXGy6MC+WlHPki/MAE="
+    },
+    "type": [
+      "VerifiableCredential",
+      "original"
+    ],
+    "salt": {
+      "gender": "qpM0S",
+      "name": "sJuNs",
+      "age": "fSTde"
+    },
+    "hash": "0xc72cc40da120c880521699e841c8d2185491c11d02d21a680440f728757a387d",
+    "credentialType": "ORIGINAL",
+    "proofType": "Secp256k1",
+    "signatureThumbprint": "{\"claim\":{\"age\":\"0x3bb99c01697f2d721e6c73aa0a51a556b2b90ea067c543e193714be6784f73bb\",\"gender\":\"0xe45ff95e97475d11e9cd2c358a6dea05c9f835b1a762e2012de2a6bc95c748a4\",\"name\":\"0xf4f927a3284355b2354d7e16114b38f237fc2bc807432a741f1e01c9c68d4d59\"},\"context\":\"https://github.com/WeBankFinTech/WeIdentity/blob/master/context/v1\",\"cptId\":2000001,\"expirationDate\":4868436929,\"id\":\"b1790429-8bf7-45d0-9b58-334b4f2f416d\",\"issuanceDate\":1714836929,\"issuer\":\"did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230\",\"type\":[\"VerifiableCredential\",\"original\"]}",
+    "signature": "eMlM32+fTi4bJAQITSJX/f36jbxf1Twjfls4scO74TYgAQd37sLzFhOgZ4pdE4IGYUOMHWXGy6MC+WlHPki/MAE="
+
+"result": {
+    "context": "https://github.com/WeBankFinTech/WeIdentity/blob/master/context/v1",
+    "id": "b1790429-8bf7-45d0-9b58-334b4f2f416d",
+    "cptId": 2000001,
+    "issuer": "did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230",
+    "issuanceDate": 1714836929,
+    "expirationDate": 4868436929,
+    "claim": {
+      "age": 22,
+      "gender": "M",
+      "name": "0xf4f927a3284355b2354d7e16114b38f237fc2bc807432a741f1e01c9c68d4d59"
+    },
+    "proof": {
+      "created": 1714836929,
+      "creator": "did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230",
+      "salt": {
+        "age": "fSTde",
+        "gender": "qpM0S",
+        "name": "0"
+      },
+      "signatureValue": "eMlM32+fTi4bJAQITSJX/f36jbxf1Twjfls4scO74TYgAQd37sLzFhOgZ4pdE4IGYUOMHWXGy6MC+WlHPki/MAE=",
+      "type": "Secp256k1"
+    },
+    "type": [
+      "VerifiableCredential",
+      "original"
+    ],
+    "salt": {
+      "age": "fSTde",
+      "gender": "qpM0S",
+      "name": "0"
+    },
+    "hash": "0xc72cc40da120c880521699e841c8d2185491c11d02d21a680440f728757a387d",
+    "credentialType": "ORIGINAL",
+    "proofType": "Secp256k1",
+    "signatureThumbprint": "{\"claim\":{\"age\":\"0x3bb99c01697f2d721e6c73aa0a51a556b2b90ea067c543e193714be6784f73bb\",\"gender\":\"0xe45ff95e97475d11e9cd2c358a6dea05c9f835b1a762e2012de2a6bc95c748a4\",\"name\":\"0xf4f927a3284355b2354d7e16114b38f237fc2bc807432a741f1e01c9c68d4d59\"},\"context\":\"https://github.com/WeBankFinTech/WeIdentity/blob/master/context/v1\",\"cptId\":2000001,\"expirationDate\":4868436929,\"id\":\"b1790429-8bf7-45d0-9b58-334b4f2f416d\",\"issuanceDate\":1714836929,\"issuer\":\"did:weid:1000:0xd63d8dc7b9ae2046201a3a13d9997b61dbae2230\",\"type\":[\"VerifiableCredential\",\"original\"]}",
+    "signature": "eMlM32+fTi4bJAQITSJX/f36jbxf1Twjfls4scO74TYgAQd37sLzFhOgZ4pdE4IGYUOMHWXGy6MC+WlHPki/MAE="
