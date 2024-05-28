@@ -1,0 +1,185 @@
+def gradleVer = "4"
+if (gradle.gradleVersion.startsWith("6")
+        || gradle.gradleVersion.startsWith("5")
+        || gradle.gradleVersion.startsWith("4.10")
+        || gradle.gradleVersion.startsWith("4.9")
+        || gradle.gradleVersion.startsWith("4.8")
+        || gradle.gradleVersion.startsWith("4.7")) {
+    println "Gradle with version >= 4.7 detected"
+    gradleVer = "5"
+} else {
+    println "Gradle with version < 4.7 detected"
+}
+
+apply plugin: 'maven'
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+version = "1.7.0"
+
+// Specify JDK version - may vary in different scenarios
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+[compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+// In this section you declare where to find the dependencies of your project
+repositories {
+    maven {
+        url "http://maven.aliyun.com/nexus/content/groups/public/"
+        mavenCentral()
+    }
+    //maven { url "https://dl.bintray.com/ethereum/maven/" }
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
+    maven { url "https://oss.sonatype.org/content/groups/public/" }
+    mavenLocal()
+}
+
+List lombok = [
+        'org.projectlombok:lombok:1.18.12'
+]
+
+def spring_version = "5.3.18"
+List spring = [
+        "org.springframework:spring-core:$spring_version",
+        "org.springframework:spring-beans:$spring_version",
+        "org.springframework:spring-context:$spring_version",
+        "org.springframework:spring-tx:$spring_version",
+        "org.springframework:spring-jdbc:$spring_version",
+        "org.springframework:spring-test:$spring_version",
+        "org.springframework:spring-context-support:$spring_version",
+        "org.springframework:spring-web:$spring_version",
+        "org.springframework:spring-webmvc:$spring_version"
+]
+
+def spring_boot_version = "2.4.1"
+List spring_boot = [
+        "org.springframework.boot:spring-boot-starter-web:$spring_boot_version",
+        "org.springframework.boot:spring-boot-autoconfigure:$spring_boot_version",
+        "org.springframework.boot:spring-boot-configuration-processor:$spring_boot_version",
+        "org.springframework.boot:spring-boot-starter-log4j2:$spring_boot_version",
+        "org.springframework.boot:spring-boot-starter-aop:$spring_boot_version"
+]
+
+def log4j_version = "2.18.0"
+List log4j = [
+        "org.apache.logging.log4j:log4j-api:$log4j_version",
+        "org.apache.logging.log4j:log4j-web:$log4j_version",
+        "org.apache.logging.log4j:log4j-core:$log4j_version",
+        "org.apache.logging.log4j:log4j-jcl:$log4j_version",
+        "org.apache.logging.log4j:log4j-jul:$log4j_version",
+        "org.apache.logging.log4j:log4j-slf4j-impl:$log4j_version"
+]
+
+List spring_boot_test = [
+        "org.springframework.boot:spring-boot-starter-test:$spring_boot_version"
+]
+
+// junit test
+List junit = [
+        "junit:junit:4.13.1",
+        "org.springframework:spring-test:$spring_version"
+]
+
+// In this section you declare the dependencies for your production and test code
+List json = [
+        "javax.validation:validation-api:1.1.0.Final",
+        "com.google.code.gson:gson:2.8.9"
+]
+
+List weid = [
+        'com.webank:weid-java-sdk:3.1.1-rc.2-SNAPSHOT',
+        "com.webank:weid-kit:3.1.0-rc.1"
+]
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    compile spring, json, spring_boot, log4j
+    testCompile spring, json, junit, spring_boot, log4j, spring_boot_test
+    // Check SDK pipeline dependency
+    if (file("./dependencies/weid-java-sdk-pipeline.jar").exists()) {
+        println "Pipeline jar for WeIdentity Java SDK found."
+        compile files('./dependencies/weid-java-sdk-pipeline.jar')
+        testCompile files('./dependencies/weid-java-sdk-pipeline.jar')
+        compile fileTree(dir: 'libs', include: '*.jar')
+        testCompile fileTree(dir: 'libs', include: '*.jar')
+    } else {
+        println "No pipeline jar found for WeIdentity Java SDK, using gradle version.."
+        compile weid
+        testCompile weid
+    }
+    if (gradleVer.startsWith("4")) {
+        compile lombok
+        testCompile lombok
+    }
+    if (gradleVer.startsWith("5")) {
+        compileOnly lombok
+        annotationProcessor lombok
+        testAnnotationProcessor lombok
+        testCompileOnly lombok
+    }
+    compile files('./dependencies/wallet-agent-0.1.0.jar')
+}
+
+configurations {
+    all*.exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    all*.exclude group: "io.netty", module: "netty-tcnative"
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources {
+            srcDirs = ['src/main/resources']
+        }
+    }
+    test {
+        java {
+            srcDirs = ['src/test/java']
+        }
+        resources {
+            srcDirs = ['src/test/resources']
+        }
+    }
+}
+
+eclipse {
+    classpath {
+        downloadSources = false
+    }
+}
+
+jar {
+    destinationDir file('dist/apps')
+    archiveName project.name + '-' + version + '.jar'
+    exclude '**/*.xml', '**/*.properties'
+
+    doLast {
+        copy {
+            from file('src/main/resources/')
+            into 'dist/conf'
+        }
+        copy {
+            from file('script/')
+            into 'dist'
+        }
+        copy {
+            from configurations.runtime
+            into 'dist/lib'
+        }
+        copy {
+            from file('keys/priv')
+            into 'dist/keys/priv'
+        }
+        copy {
+            from file('private_key')
+            into 'dist'
+        }
+        copy {
+            from file('.').listFiles().findAll { File f -> (f.name.endsWith('.bat') || f.name.endsWith('.sh') || f.name.endsWith('.env')) }
+            into 'dist'
+        }
+    }
+}
